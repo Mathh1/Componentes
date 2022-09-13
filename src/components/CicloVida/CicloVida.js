@@ -3,6 +3,9 @@ import { useEffect } from 'react'
 const CicloVida = ({numero}) => {
     useEffect(() => {
         console.log('');
+        return () => {
+            console.log('componente desmontado')
+        }
     }, []);
 
     useEffect(() => {
