@@ -11,15 +11,23 @@ import NavBar from './components/NavBar/NavBar';
 // import ClassComponent from './components/ClassComponent/ClassComponent';
 // import CicloVida from './components/CicloVida/CicloVida';
 // import { useState } from 'react';
-import ItemListContainer from './components/products/ItemListContainer/ItemListContainer';
+// import ItemListContainer from './components/products/ItemListContainer/ItemListContainer';
+// import ItemDetail from './components/products/ItemDetailContainer/ItemDetail';
+import ItemDetailContainer from './components/products/ItemDetailContainer/ItemDetailContainer';
+
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <header className="App-header">
-        <Titulo titulo={'Mathh'} />
-        <ItemListContainer greeting="a"/>
+        <Titulo titulo={'Guitarras'} />
+        <div>
+        
+        
+        </div>
+        {/* <ItemListContainer greeting="a"/> */}
+        <ItemDetailContainer greeting="a"/>
       </header>
     </div>
   );

@@ -1,10 +1,10 @@
-
+import './styles.css';
 
 const Item = ({precio, id, title, thumbnaiUrl}) => {
     return (
-        <div>
+        <div className="card">
             <img src={thumbnaiUrl} alt={[title]} />
-            <h1>{title}</h1>
+            <h3>{title}</h3>
             <p>{precio}</p>
         </div>
     )
